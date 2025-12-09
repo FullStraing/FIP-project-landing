@@ -6,10 +6,12 @@ import { AnalyticsSection } from '@/components/sections/AnalyticsSection'
 import { SafetySection } from '@/components/sections/SafetySection'
 import { AudienceSection } from '@/components/sections/AudienceSection'
 import { FinalCtaSection } from '@/components/sections/FinalCtaSection'
+import { Navbar } from '@/components/layout/Navbar'
 
 export default function HomePage() {
   return (
     <main className="bg-brand-light text-brand-blue">
+      <Navbar />
       <HeroSection />
       <ProblemSection />
       <SolutionSection />
