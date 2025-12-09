@@ -13,7 +13,7 @@ export function FinalCtaSection() {
           <input
             type="email"
             placeholder="Ваша почта"
-            className="flex-1 rounded-full px-5 py-3 text-brand-blue outline-none"
+            className="flex-1 rounded-full px-5 py-3 bg-white text-brand-blue placeholder:text-brand-blue/60 outline-none border border-white/40 focus:border-white"
           />
           <button className="px-8 py-3 rounded-full bg-brand-red font-semibold">
             Получить приглашение
